@@ -232,7 +232,21 @@ input {
     text-align: center;
 }
 
+/* Responsive */
 
+@media screen and (max-width:578px){
+    .item-add {
+        padding:0;
+        width: 30px;
+        height: 30px;
+    }
+    .item-description {
+        margin-left:0;
+    }
+    .emoji {
+        font-size:40px;
+    }
+}
 
 
 
